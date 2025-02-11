@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "module-path-manager"
+version = "0.0.1"
+description = "프로젝트의 내부 모듈들에서 간편하게 chdir와 sys.path를 설정할 수 있는 라이브러리"
+readme = "README.md"
+requires-python = ">=3"
+license = { text = "MIT" }
+authors = [
+    { name = "gibiee", email = "gibiee@naver.com" }
+]
+keywords = ["module", "path", "module-path", "rootpath", "project-path"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent"
+]
+
+[project.urls]
+Homepage = "https://github.com/gibiee/module-path-manager"
+
+[tool.setuptools]
+include-package-data = true
+
+[tool.setuptools.packages.find]
+exclude = []
