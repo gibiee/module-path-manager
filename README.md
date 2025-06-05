@@ -1,11 +1,16 @@
+![PyPI - Version](https://img.shields.io/pypi/v/module-path-manager)
+![PyPI - Downloads](https://img.shields.io/pypi/dm/module-path-manager?color=red)
+![PyPI - License](https://img.shields.io/pypi/l/module-path-manager)
+![PyPI - Python Version](https://img.shields.io/pypi/pyversions/module-path-manager)
+
 # module-path-manager
-프로젝트의 내부 모듈들에서 간편하게 chdir와 sys.path를 설정할 수 있는 라이브러리
+프로젝트의 내부 모듈들에서 간편하게 chdir와 sys.path를 설정할 수 있는 라이브러리  
+PyPI : https://pypi.org/project/module-path-manager/
 
 # 설치
 ```sh
 pip install module-path-manager
 ```
-- https://pypi.org/project/module-path-manager/
 
 # 사용 예시
 ### 아래와 같은 디렉토리 구조의 프로젝트가 있다고 가정합니다.
